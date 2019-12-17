@@ -1,0 +1,792 @@
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/2.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 92, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 83, in MainFunction
+    0, 0, 0, 0, "Placeholder", "final_result")
+  File "/data/TensorflowAPI/hubmaster/examples/image_retraining/label_image.py", line 106, in predict_label
+    graph = load_graph(model_file)
+  File "/data/TensorflowAPI/hubmaster/examples/image_retraining/label_image.py", line 31, in load_graph
+    with open(model_file, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/tmp_6Augoutput_graph.pb'
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/3.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/4.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/5.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/6.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/7.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/8.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/9.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 63, in api_root
+    inner_data = data['image']
+KeyError: 'image'
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 63, in api_root
+    inner_data = data['image']
+KeyError: 'image'
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/10.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/11.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/12.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/13.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/14.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/15.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/16.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/17.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/18.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/19.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/20.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/21.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/22.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/23.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/24.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/25.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/26.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/27.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/28.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/29.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/30.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/31.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/32.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/33.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/34.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/35.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/36.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/37.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/38.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/39.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/40.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/41.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/42.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/43.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/44.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/45.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/46.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/47.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/48.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/49.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/50.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/51.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/52.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/53.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/54.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/55.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/56.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/57.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/58.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/59.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/60.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/61.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/62.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/63.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/64.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/65.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/66.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/67.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/68.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 83, in MainFunction
+    0, 0, 0, 0, "Placeholder", "final_result")
+  File "/data/TensorflowAPI/hubmaster/examples/image_retraining/label_image.py", line 106, in predict_label
+    graph = load_graph(model_file)
+  File "/data/TensorflowAPI/hubmaster/examples/image_retraining/label_image.py", line 31, in load_graph
+    with open(model_file, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/TFmodel/output_graph.pb'
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/69.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 83, in MainFunction
+    0, 0, 0, 0, "Placeholder", "final_result")
+  File "/data/TensorflowAPI/hubmaster/examples/image_retraining/label_image.py", line 106, in predict_label
+    graph = load_graph(model_file)
+  File "/data/TensorflowAPI/hubmaster/examples/image_retraining/label_image.py", line 31, in load_graph
+    with open(model_file, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/TFmodel/output_graph.pb'
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/70.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 92, in api_root
+    if "M" in text and len(text.split("MR", 1)) >1:
+UnboundLocalError: local variable 'text' referenced before assignment
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/71.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 92, in api_root
+    if "M" in text and len(text.split("MR", 1)) >1:
+UnboundLocalError: local variable 'text' referenced before assignment
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/72.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/73.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/74.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 89, in api_root
+    original_img.save(saved_path)
+  File "/home/qgate/.local/lib/python3.6/site-packages/PIL/Image.py", line 2004, in save
+    fp = builtins.open(filename, "w+b")
+PermissionError: [Errno 13] Permission denied: '/data/TensorflowAPI/uploads/74.JPG'
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/74.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/75.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/76.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/77.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/78.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 85, in MainFunction
+    pool = mp.Pool(mp.cpu_count())
+NameError: name 'mp' is not defined
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/79.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 95, in MainFunction
+    print(prediction)
+NameError: name 'prediction' is not defined
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/80.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/81.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 90, in MainFunction
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/data/TensorflowAPI/Code.py", line 90, in <listcomp>
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 78, in _remote_proxy
+    return self._remote(args=args, kwargs=kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 155, in _remote
+    return invocation(args, kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 134, in invocation
+    kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/signature.py", line 215, in extend_args
+    keyword_name, function_name))
+Exception: No value was provided for the argument 'save_path' for the function 'predictionLabel'.
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/82.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 90, in MainFunction
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/data/TensorflowAPI/Code.py", line 90, in <listcomp>
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 78, in _remote_proxy
+    return self._remote(args=args, kwargs=kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 155, in _remote
+    return invocation(args, kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 134, in invocation
+    kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/signature.py", line 215, in extend_args
+    keyword_name, function_name))
+Exception: No value was provided for the argument 'save_path' for the function 'predictionLabel'.
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/83.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 91, in MainFunction
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/data/TensorflowAPI/Code.py", line 91, in <listcomp>
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 78, in _remote_proxy
+    return self._remote(args=args, kwargs=kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 155, in _remote
+    return invocation(args, kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 134, in invocation
+    kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/signature.py", line 215, in extend_args
+    keyword_name, function_name))
+Exception: No value was provided for the argument 'save_path' for the function 'predictionLabel'.
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/84.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 91, in MainFunction
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/data/TensorflowAPI/Code.py", line 91, in <listcomp>
+    Vin = [predictionLabel.remote(i) for i in range(lenImg)]
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 78, in _remote_proxy
+    return self._remote(args=args, kwargs=kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 155, in _remote
+    return invocation(args, kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/remote_function.py", line 134, in invocation
+    kwargs)
+  File "/home/qgate/.local/lib/python3.6/site-packages/ray/signature.py", line 215, in extend_args
+    keyword_name, function_name))
+Exception: No value was provided for the argument 'save_path' for the function 'predictionLabel'.
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/85.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 91, in api_root
+    recognised_text = Code.MainFunction(saved_path)
+  File "/data/TensorflowAPI/Code.py", line 92, in MainFunction
+    print(ray.get(futures))
+NameError: name 'futures' is not defined
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/86.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/87.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/88.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/89.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/90.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/91.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/92.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/93.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/94.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/95.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/96.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/97.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/98.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/99.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/100.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/101.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/102.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/103.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/104.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/105.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/106.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/107.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 101, in api_root
+    if(recognised_text[9] in ['h', '1']):
+IndexError: string index out of range
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/108.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/109.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/110.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/111.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/qgate/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 101, in api_root
+    if(recognised_text[9] in ['h', '1']):
+IndexError: string index out of range
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/112.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/113.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/114.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/115.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/116.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/117.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/118.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/119.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/120.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/121.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/122.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/123.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/124.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/125.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/126.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/127.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/128.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/129.JPG
+/data/TensorflowAPI
+/data/TensorflowAPI/uploads/
+saving /data/TensorflowAPI/uploads/130.JPG
+Exception on /detectText [POST]
+Traceback (most recent call last):
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "image_upload_api.py", line 101, in api_root
+    if(recognised_text[9] in ['h', '1']):
+IndexError: string index out of range
